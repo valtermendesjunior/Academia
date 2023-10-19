@@ -9,20 +9,18 @@
     </head>
 
 <body>
-
-<?php
-
- 
-
-     include_once("assets/componentes/cabecalho.html");
-
- 
-
- ?>
-
+    <header id="cabecalho">
+        
+    <a href="index.php">
+            <a href="Inicio.php">Inicio</a>
+            <a href="Modalidades.php">Modalidades</a>
+            <a href="Planos.php">Planos</a>
+            <a href="Eventos.php">Eventos</a>
+            <a href="Área Restrita.php">Área Restrita</a>
  
 
  <div id="banner">
+ <img src="assets/img/banner.png" alt="">
 
  
 
@@ -64,6 +62,9 @@
 
      <h3>Musculação</h3>
 
+     <div id="musculacao">
+ <img src="assets/img/musculacao.png" alt="">
+
  
 
  </div>
@@ -76,6 +77,9 @@
 
      <h3>Ginástica</h3>
 
+     <div id="ginastica">
+ <img src="assets/img/ginastica.png" alt="">
+
  </div>
 
  
@@ -86,15 +90,13 @@
 
      <h3>Yoga</h3>
 
+     <div id="yoga">
+ <img src="assets/img/yoga.png" alt="">
+
  </div>
-
- 
-
- <?php
-
-     include_once("assets/componentes/rodape.html");
-
- ?>
+ <footer>
+    <p>Desenvolvido por Valter, 2023.</p>
+</footer>
 
 </body>
 
